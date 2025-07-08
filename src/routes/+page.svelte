@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+	title="Build a website in minutes"
+	subtitle="No code. No clutter. Just your content."
+	imageSrc="/generated/image-a-group-of-diverse-small-business-owners.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by creative professionals and small businesses"
+	logoUrls={[
+		'https://logo.clearbit.com/etsy.com',
+		'https://logo.clearbit.com/fiverr.com',
+		'https://logo.clearbit.com/upwork.com',
+		'https://logo.clearbit.com/squarespace.com'
+	]}
+/>
 
 <Summary
 	generating
