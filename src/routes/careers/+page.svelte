@@ -122,31 +122,31 @@
 
 	const employeeTestimonials = [
 		{
-			name: "Sarah Kim",
-			position: "UX Designer",
-			company: "Design Team",
+			name: "Elira Voss",
+			position: "Front-end Developer",
+			company: "Product Team",
 			quote:
-				"Every day I get to help make the web more accessible. Seeing small business owners launch their first website with our simple tools is incredibly rewarding.",
+				"Working here has helped me grow fast—both in ownership and creativity. I shipped my own feature in week two.",
 			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-confident-asian-woman-in-a-modern-offi.webp"
 		},
 		{
-			name: "David Martinez",
-			position: "Frontend Developer",
-			company: "Engineering Team",
+			name: "Mateo Griggs",
+			position: "Content Designer",
+			company: "UX Team",
 			quote:
-				"Our focus on simplicity challenges me to write better code. When non-technical users can easily create beautiful websites, that's when you know you've built something special.",
+				"We're small, intentional, and focused. That means your work matters every day. It's exciting to build something this useful from the ground up.",
 			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-friendly-hispanic-man-in-a-casual-offi.webp"
 		},
 		{
-			name: "Jennifer Wu",
-			position: "Customer Success Manager",
-			company: "Support Team",
+			name: "Azra Juno",
+			position: "Engineer",
+			company: "Core Platform",
 			quote:
-				"I love helping artists, freelancers, and small businesses get online. Our simple approach means they can focus on their craft, not learning complicated tools.",
+				"I came from big tech and joined to finally work on something clear and human. We build for people—not power users, not marketers—just people.",
 			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-warm-and-approachable-black-woman-in-a.webp"
 		}
 	];
 

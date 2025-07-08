@@ -11,13 +11,13 @@
 
 	// Icons
 	import IconUsers from "~icons/lucide/users";
-	import IconClipboardList from "~icons/lucide/clipboard-list";
+	import IconClipboard from "~icons/lucide/clipboard";
 	import IconBarChart from "~icons/lucide/bar-chart";
 	import IconShieldCheck from "~icons/lucide/shield-check";
 	import IconTrendingUp from "~icons/lucide/trending-up";
-	import IconShieldAlert from "~icons/lucide/shield-alert";
-	import IconPresentationChart from "~icons/lucide/presentation";
-	import IconDocumentCheck from "~icons/lucide/file-check";
+	import IconShield from "~icons/lucide/shield";
+	import IconPresentation from "~icons/lucide/presentation";
+	import IconFileCheck from "~icons/lucide/file-check";
 	import IconCode from "~icons/lucide/code";
 	import IconCpu from "~icons/lucide/cpu";
 	import IconUserGroup from "~icons/lucide/users";
@@ -26,6 +26,10 @@
 	import IconClipboardCheck from "~icons/lucide/clipboard-check";
 	import IconPieChart from "~icons/lucide/pie-chart";
 	import IconSettings from "~icons/lucide/settings";
+	import IconClipboardList from "~icons/lucide/clipboard-list";
+	import IconShieldAlert from "~icons/lucide/shield-alert";
+	import IconPresentationChart from "~icons/lucide/presentation";
+	import IconDocumentCheck from "~icons/lucide/file-check";
 
 	// Props
 	const { data }: { data: PageData } = $props();
@@ -73,7 +77,13 @@
 {/if}
 
 {#if data?.testimonials}
-	<Testimonials testimonials={data.testimonials} />
+	<Testimonials testimonials={data.testimonials.map(t => ({
+		name: t.author,
+		position: t.role,
+		company: t.role,
+		quote: t.quote,
+		image: t.imageSrc
+	}))} />
 {/if}
 
 {#if data?.features}
