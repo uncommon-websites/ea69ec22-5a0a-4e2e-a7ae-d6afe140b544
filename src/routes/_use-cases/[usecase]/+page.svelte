@@ -16,8 +16,8 @@
 	import IconShieldCheck from "~icons/lucide/shield-check";
 	import IconTrendingUp from "~icons/lucide/trending-up";
 	import IconShieldAlert from "~icons/lucide/shield-alert";
-	import IconPresentationChart from "~icons/lucide/presentation-chart-line";
-	import IconDocumentCheck from "~icons/lucide/document-check";
+	import IconPresentationChart from "~icons/lucide/presentation";
+	import IconDocumentCheck from "~icons/lucide/file-check";
 	import IconCode from "~icons/lucide/code";
 	import IconCpu from "~icons/lucide/cpu";
 	import IconUserGroup from "~icons/lucide/users";

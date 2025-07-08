@@ -15,3 +15,4 @@ export { default as IconTrendingUp } from './TrendingUp.svelte';
 export { default as IconBriefcase } from './Briefcase.svelte';
 export { default as IconHeart } from './Heart.svelte';
 export { default as IconGlobe } from './Globe.svelte';
+export { default as IconArrowUpRight } from './ArrowUpRight.svelte';
