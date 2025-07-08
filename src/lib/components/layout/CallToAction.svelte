@@ -50,10 +50,10 @@
 
 	// Props
 	const {
-		title = "Get started today",
-		subtitle = "Join now",
-		description = "Ready to experience the difference? Join our community of satisfied customers and see how our solution can transform your workflow. ",
-		imageSrc = "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
+		title = "Start building your website",
+		subtitle = "It's that simple",
+		description = "Join thousands of individuals, freelancers, and small businesses who've created their perfect website in minutes. No technical skills required - just your ideas and our simple platform.",
+		imageSrc = "/generated/image-a-cheerful-small-business-owner-standing.webp",
 		callsToAction = [cta],
 		...rest
 	}: {
@@ -90,7 +90,7 @@
 			</div>
 			<img
 				src={imageSrc}
-				alt="Visual comparison showing product benefits"
+				alt="Happy small business owner smiling at their website"
 				class="hidden aspect-[4/5] size-full max-h-full w-full rounded-[calc(max(var(--inner-radius),.25rem))] object-cover lg:block"
 			/>
 		</div>

@@ -357,7 +357,7 @@ const useCases: Record<string, UseCase> = {
 	education: educationUseCase
 };
 
-export const load: PageLoad = async ({ params }) => {
+export const load: PageLoad = async ({ params }: { params: { usecase: string } }) => {
 	const { usecase } = params;
 
 	if (!usecase || !(usecase in useCases)) {

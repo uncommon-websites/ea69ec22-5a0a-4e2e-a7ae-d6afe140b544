@@ -10,10 +10,7 @@
 	import JobList, { type JobOpening } from "./JobList.svelte";
 
 	// Icons
-	import IconBriefcase from "~icons/lucide/briefcase";
-	import IconUsers from "~icons/lucide/users";
-	import IconHeart from "~icons/lucide/heart";
-	import IconGlobe from "~icons/lucide/globe";
+	import { IconUsers, IconBriefcase, IconHeart, IconGlobe } from "$lib/icons";
 
 	// Constants
 	const SECTION_BASE_CLASSES = "section-py section-px container mx-auto";
@@ -24,19 +21,19 @@
 
 	const benefits = [
 		{
-			title: "Flexible Work",
-			description: "Remote-first with flexible hours that respect work-life balance.",
-			icon: IconBriefcase
+			title: "Impact at Scale",
+			description: "Help millions of non-technical users get online with beautiful, simple websites.",
+			icon: IconGlobe
 		},
 		{
-			title: "Growth Opportunities",
-			description: "Continuous learning with mentorship and education stipends.",
-			icon: IconUsers
-		},
-		{
-			title: "Comprehensive Benefits",
-			description: "Health coverage, retirement plans, and generous paid time off.",
+			title: "Simplicity-First Culture",
+			description: "Work in an environment that values clarity, accessibility, and user-friendly design.",
 			icon: IconHeart
+		},
+		{
+			title: "Remote-First Flexibility",
+			description: "Flexible work arrangements with comprehensive benefits and growth opportunities.",
+			icon: IconBriefcase
 		}
 	];
 
@@ -122,29 +119,29 @@
 
 	const employeeTestimonials = [
 		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
+			name: "Sarah Kim",
+			position: "UX Designer",
 			company: "Design Team",
 			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
+				"Every day I get to help make the web more accessible. Seeing small business owners launch their first website with our simple tools is incredibly rewarding.",
 			image:
 				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
 		},
 		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
+			name: "David Martinez",
+			position: "Frontend Developer",
+			company: "Engineering Team",
 			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
+				"Our focus on simplicity challenges me to write better code. When non-technical users can easily create beautiful websites, that's when you know you've built something special.",
+			image:
+				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+		},
+		{
+			name: "Jennifer Wu",
+			position: "Customer Success Manager",
+			company: "Support Team",
+			quote:
+				"I love helping artists, freelancers, and small businesses get online. Our simple approach means they can focus on their craft, not learning complicated tools.",
 			image:
 				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
 		}
@@ -153,37 +150,37 @@
 	const processSteps = [
 		{
 			step: 1,
-			title: "Apply",
+			title: "Simple Application",
 			description:
-				"Submit your application through our careers portal with your resume and portfolio."
+				"Submit your application with your resume. No complex forms or lengthy requirements."
 		},
 		{
 			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
+			title: "Friendly Conversation",
+			description: "Have a relaxed chat with our team about your experience and how you can help make the web simpler."
 		},
 		{
 			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
+			title: "Start Building",
+			description: "Join our mission to make website creation accessible to everyone, everywhere."
 		}
 	];
 
 	const values = [
 		{
 			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
+			title: "Simplicity First",
+			description: "We believe the best solutions are simple, accessible, and user-friendly."
 		},
 		{
 			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
+			title: "Inclusive Design",
+			description: "We create tools that work for everyone, regardless of technical expertise."
 		},
 		{
 			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
+			title: "Democratize the Web",
+			description: "Making website creation accessible to individuals, small businesses, and creators everywhere."
 		}
 	];
 </script>
@@ -191,15 +188,14 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	generating
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
-	imageSrc="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+	title="Build something simple, meaningful, and impactful"
+	subtitle="Join our mission to make website creation accessible for everyone. We're a team that believes in simplicity, empathy, and empowering non-technical users to succeed online."
+	imageSrc="/generated/image-a-diverse-team-of-professionals-working-.webp"
 />
 
 <!-- Why Join Us Section -->
-<section class={SECTION_BASE_CLASSES} generating>
-	<SectionHeader title="Why join us?" subtitle="Build your career while making an impact" />
+<section class={SECTION_BASE_CLASSES}>
+	<SectionHeader title="Why join us?" subtitle="Help us make the web simple and accessible for everyone" />
 
 	<div class="mt-16 grid gap-4 md:grid-cols-3">
 		{#each benefits as benefit}
@@ -209,12 +205,12 @@
 </section>
 
 <!-- Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
-<Testimonials testimonials={employeeTestimonials} generating />
+<Testimonials testimonials={employeeTestimonials} />
 
 <!-- Application Process -->
-<section class={SECTION_BASE_CLASSES} generating>
+<section class={SECTION_BASE_CLASSES}>
 	<div class="mx-auto">
 		<h2 class="text-title1 mb-16">Our application process</h2>
 
@@ -232,7 +228,7 @@
 	</div>
 </section>
 <!-- Current Openings Section -->
-<section class={GRADIENT_BG_CLASSES} generating>
+<section class={GRADIENT_BG_CLASSES}>
 	<div class="section-px section-py container mx-auto grid w-full items-start lg:grid-cols-2">
 		<SectionHeader title="Current openings" subtitle="Find your perfect role" />
 

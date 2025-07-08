@@ -7,6 +7,7 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import UseCases from "$lib/components/layout/UseCases.svelte";
 </script>
 
 <Hero
@@ -26,65 +27,112 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="We provide a service for individuals and businesses to create super simple websites, focusing on ease of use and accessibility for non-technical users. Our platform prioritizes simplicity, speed, and affordability over highly customized or complex web functionalities."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Ella Lagrange",
+			position: "Illustrator",
+			company: "",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
+				"I made my portfolio in a lunch break. What would have taken me weeks of wrestling with templates happened in 30 minutes. I saved so much time I could focus on actual client work.",
 			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-professional-female-illustrator-in-her.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Noah Bhatt",
+			position: "Consultant",
+			company: "",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
+				"Nothing to set up. Just pure writing. I eliminated all the technical risks of managing hosting, security, and updates. My site just works, and I sleep better at night.",
 			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-professional-male-business-consultant-.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Talia Mendez",
+			position: "Founder",
+			company: "Talia Coaching",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
+				"I send people one link and they get all they need. This saved me $3000 compared to hiring a developer, and I can update it myself whenever I want.",
 			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-professional-female-business-coach-in-.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Why choose us"
+	subtitle="Everything you need to get online quickly"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "No code required",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Create your website without writing a single line of code. Our intuitive interface makes web building accessible to everyone."
 		},
 		{
-			title: "Data Analysis",
+			title: "Lightning fast setup",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Get your website live in minutes, not hours. Choose a template, add your content, and you're ready to go."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Mobile responsive",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Your website automatically looks perfect on all devices. No need to worry about technical details or complex configurations."
+		},
+		{
+			title: "Affordable pricing",
+			description:
+				"Professional websites shouldn't break the bank. Our simple pricing makes it easy for anyone to afford a quality online presence."
+		},
+		{
+			title: "Built-in hosting",
+			description:
+				"Everything you need is included in one place. No separate hosting accounts or technical setup required."
+		},
+		{
+			title: "24/7 support",
+			description:
+				"Get help whenever you need it with our friendly support team. We're here to make your website journey smooth and stress-free."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+
+<UseCases
+	title="Use Cases"
+	subtitle="Real-world applications for your simple website needs"
+	useCases={[
+		{
+			title: "Freelancers showcase their work",
+			description: "Create a professional portfolio in minutes to attract clients. No technical skills needed - just upload your work and share your story.",
+			image: "/generated/image-a-small-business-owner-a-middle-aged-wom.webp",
+			link: {
+				href: "/use-cases/freelancer-portfolio",
+				label: "Learn more"
+			}
+		},
+		{
+			title: "Artists display their creations",
+			description: "Transform your art into an online gallery that showcases your unique style. Perfect for painters, photographers, and creative professionals.",
+			image: "/generated/image-an-artist-a-young-man-with-long-hair-is-.webp",
+			link: {
+				href: "/use-cases/artist-gallery",
+				label: "Learn more"
+			}
+		},
+		{
+			title: "Startups launch their presence",
+			description: "Get your business online quickly with a clean, professional website. Focus on your product while we handle the technical details.",
+			image: "/generated/image-a-startup-founder-a-young-woman-in-her-l.webp",
+			link: {
+				href: "/use-cases/startup-launch",
+				label: "Learn more"
+			}
+		}
+	]}
+/>
+
+<AboutTeaser />
+<CallToAction />

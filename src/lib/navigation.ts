@@ -60,7 +60,37 @@ export const navigation: NavItem[] = [
 		showInNav: true,
 		showInFooter: false
 	},
-
+	{
+		label: "Use Cases",
+		showInNav: true,
+		showInFooter: true,
+		children: [
+			{
+				label: "Freelancer Portfolio",
+				href: "/use-cases/freelancer-portfolio",
+				image: "/generated/image-a-small-business-owner-a-middle-aged-wom.webp",
+				description: "Create a professional portfolio in minutes to attract clients. No technical skills needed - just upload your work and share your story.",
+				showInNav: true,
+				showInFooter: true
+			},
+			{
+				label: "Artist Gallery",
+				href: "/use-cases/artist-gallery",
+				image: "/generated/image-an-artist-a-young-man-with-long-hair-is-.webp",
+				description: "Transform your art into an online gallery that showcases your unique style. Perfect for painters, photographers, and creative professionals.",
+				showInNav: true,
+				showInFooter: true
+			},
+			{
+				label: "Startup Launch",
+				href: "/use-cases/startup-launch",
+				image: "/generated/image-a-startup-founder-a-young-woman-in-her-l.webp",
+				description: "Get your business online quickly with a clean, professional website. Focus on your product while we handle the technical details.",
+				showInNav: true,
+				showInFooter: true
+			}
+		]
+	},
 	{
 		label: "Company",
 		showInNav: true,
