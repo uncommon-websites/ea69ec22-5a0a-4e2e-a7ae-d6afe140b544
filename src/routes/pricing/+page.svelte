@@ -17,33 +17,50 @@
 <Testimonials
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Allie Rutherford",
+			position: "Illustrator",
+			company: "Freelance Artist",
 			quote:
-				"This solution transformed our workflow and increased productivity by 35% in just two months.",
+				"I launched my website in under 10 minutes. It felt like writing an email — that's it. No technical knowledge needed, and it looks professional.",
 			image:
-				"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-professional-headshot-of-a-young-woman.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Malik Tan",
+			position: "Founder",
+			company: "Monsoon Studio",
 			quote:
-				"The implementation was seamless and the support team was exceptional throughout the process.",
+				"We needed something fast and simple. This platform let us skip the tech headaches entirely. Best ROI we've seen — saved us thousands on web development.",
 			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-professional-headshot-of-a-middle-aged.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Eric Lau",
+			position: "Product Designer",
+			company: "Tech Startup",
 			quote:
-				"We've tried multiple solutions, but this is the only one that perfectly addressed all our requirements.",
+				"My parents used it. They don't even use smartphones. That's how simple it is. If they can build a website, anyone can.",
 			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&estimonial-3.jpg"
+				"/generated/image-a-professional-headshot-of-a-young-asian.webp"
 		}
 	]}
 />
 
-<CallToAction />
+<CallToAction
+	title="Don't overthink it"
+	subtitle="Start now. No account needed."
+	description="Take 5 minutes. Create something real. Share it with the world. No credit card. No learning curve. Just your site—live in minutes."
+	imageSrc="/generated/image-a-cheerful-small-business-owner-sitting-.webp"
+	callsToAction={[
+		{
+			href: "/get-started",
+			label: "Make your site now",
+			variant: "primary"
+		},
+		{
+			href: "/contact",
+			label: "Have questions?",
+			variant: "secondary"
+		}
+	]}
+/>

@@ -36,135 +36,139 @@ Please update features according to the company's product offering. Do not remov
 	// Props
 	const {
 		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		subtitle = "Build your website in minutes, not hours",
+		tierNames = ["Free", "Personal", "Business"],
 		features = [
 			{
-				name: "Projects",
+				name: "Websites",
 				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
+					Free: "1",
+					Personal: "5",
+					Business: "Unlimited"
 				}
 			},
 			{
-				name: "Team members",
+				name: "Pages per website",
 				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
+					Free: "3",
+					Personal: "10",
+					Business: "Unlimited"
 				}
 			},
 			{
 				name: "Storage",
 				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
+					Free: "100MB",
+					Personal: "1GB",
+					Business: "10GB"
 				}
 			},
 			{
-				name: "API access",
+				name: "Custom domain",
 				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
+					Free: false,
+					Personal: true,
+					Business: true
 				}
 			},
 			{
-				name: "Custom domains",
+				name: "SSL certificate",
 				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
+					Free: true,
+					Personal: true,
+					Business: true
 				}
 			},
 			{
-				name: "Analytics",
+				name: "Templates",
 				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
+					Free: "10",
+					Personal: "50",
+					Business: "Unlimited"
 				}
 			},
 			{
-				name: "Support response time",
+				name: "Mobile responsive",
 				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
+					Free: true,
+					Personal: true,
+					Business: true
 				}
 			},
 			{
-				name: "Dedicated account manager",
+				name: "Contact forms",
 				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: true
+					Free: false,
+					Personal: true,
+					Business: true
 				}
 			},
 			{
-				name: "SLA",
+				name: "Priority support",
 				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
+					Free: false,
+					Personal: false,
+					Business: true
 				}
 			}
 		],
 		tiers = [
 			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
+				name: "Free",
+				monthlyPrice: 0,
+				yearlyPrice: 0,
+				description: "Perfect for trying out our platform",
 				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
+					"1 simple website",
+					"Up to 3 pages",
+					"100MB storage",
+					"10 beautiful templates",
+					"SSL certificate included",
+					"Mobile responsive design"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
+					label: "Get started free",
+					href: "/signup?plan=free"
 				}
 			},
 			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
+				name: "Personal",
+				monthlyPrice: 5.99,
+				yearlyPrice: 4.99, // 17% savings
+				description: "For individuals and freelancers",
 				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
+					"Up to 5 websites",
+					"Up to 10 pages per site",
+					"1GB storage",
+					"50+ beautiful templates",
+					"Custom domain included",
+					"Contact forms",
+					"Email support"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
+					label: "Start building",
+					href: "/signup?plan=personal"
 				},
 				highlight: true
 			},
 			{
-				name: "Enterprise",
-				monthlyPrice: null,
-				yearlyPrice: null,
-				description: "For large organizations with specific needs",
+				name: "Business",
+				monthlyPrice: 14.99,
+				yearlyPrice: 12.99, // 13% savings
+				description: "For small businesses and agencies",
 				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
+					"Unlimited websites",
+					"Unlimited pages",
+					"10GB storage",
+					"All premium templates",
+					"Priority support",
+					"Advanced contact forms",
+					"Custom domain support",
+					"Website analytics"
 				],
 				cta: {
-					label: "Contact sales",
-					href: "/contact"
+					label: "Go business",
+					href: "/signup?plan=business"
 				}
 			}
 		]

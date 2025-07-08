@@ -61,6 +61,17 @@
 			icon: iconMap[feature.icon] || IconUsers
 		})) || []
 	);
+
+	// Transform testimonials to match expected structure
+	let processedTestimonials = $derived(
+		data?.testimonials?.map(testimonial => ({
+			name: testimonial.author,
+			position: testimonial.role.split(',')[0] || testimonial.role,
+			company: testimonial.role.split(',')[1]?.trim() || '',
+			quote: testimonial.quote,
+			image: testimonial.imageSrc
+		})) || []
+	);
 </script>
 
 {#if data?.hero}
@@ -76,14 +87,8 @@
 	<Summary title={data.summary.title} text={data.summary.text} />
 {/if}
 
-{#if data?.testimonials}
-	<Testimonials testimonials={data.testimonials.map(t => ({
-		name: t.author,
-		position: t.role,
-		company: t.role,
-		quote: t.quote,
-		image: t.imageSrc
-	}))} />
+{#if processedTestimonials.length > 0}
+	<Testimonials testimonials={processedTestimonials} />
 {/if}
 
 {#if data?.features}

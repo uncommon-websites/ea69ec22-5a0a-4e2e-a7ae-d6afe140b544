@@ -23,9 +23,10 @@ type UseCase = {
 	};
 	testimonials: Array<{
 		quote: string;
-		author: string;
-		role: string;
-		imageSrc: string;
+		name: string;
+		position: string;
+		company: string;
+		image: string;
 	}>;
 	features: {
 		title: string;

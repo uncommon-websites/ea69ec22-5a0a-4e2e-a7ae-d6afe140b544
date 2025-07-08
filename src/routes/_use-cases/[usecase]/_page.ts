@@ -1,5 +1,4 @@
-// Types
-import type { PageLoad } from "./$types";
+<!-- This file should be removed - only +page.ts is needed -->
 
 // Use cases can be considered industries depending on the company.
 // Types
