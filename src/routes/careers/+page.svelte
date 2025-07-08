@@ -10,10 +10,10 @@
 	import JobList, { type JobOpening } from "./JobList.svelte";
 
 	// Icons
-	import IconBriefcase from "~icons/lucide/briefcase";
-	import IconUsers from "~icons/lucide/users";
-	import IconHeart from "~icons/lucide/heart";
-	import IconGlobe from "~icons/lucide/globe";
+	import IconBriefcase from "$lib/components/icons/IconBriefcase.svelte";
+	import IconUsers from "$lib/components/icons/IconUsers.svelte";
+	import IconHeart from "$lib/components/icons/IconHeart.svelte";
+	import IconGlobe from "$lib/components/icons/IconGlobe.svelte";
 
 	// Constants
 	const SECTION_BASE_CLASSES = "section-py section-px container mx-auto";

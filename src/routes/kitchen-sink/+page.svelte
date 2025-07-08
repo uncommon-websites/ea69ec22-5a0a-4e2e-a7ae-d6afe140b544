@@ -4,11 +4,11 @@
 	import Features from "$lib/components/layout/Features.svelte";
 
 	// Icons
-	import IconZap from "~icons/lucide/zap";
-	import IconShield from "~icons/lucide/shield";
-	import IconUsers from "~icons/lucide/users";
-	import IconSettings from "~icons/lucide/settings";
-	import IconPalette from "~icons/lucide/palette";
+	import IconZap from "$lib/components/icons/IconZap.svelte";
+	import IconShield from "$lib/components/icons/IconShield.svelte";
+	import IconUsers from "$lib/components/icons/IconUsers.svelte";
+	import IconSettings from "$lib/components/icons/IconSettings.svelte";
+	import IconPalette from "$lib/components/icons/IconPalette.svelte";
 
 	// Theme controls
 	let themeRadius = $state(8); // 0.5rem = 8px
@@ -77,8 +77,9 @@
 
 				<!-- Background Shade -->
 				<div class="space-y-2">
-					<label class="text-sm font-medium">Background: Gray-{backgroundShade}</label>
+					<label for="background-control" class="text-sm font-medium">Background: Gray-{backgroundShade}</label>
 					<select
+						id="background-control"
 						bind:value={backgroundShade}
 						class="border-border bg-background text-foreground w-full rounded border p-2"
 					>
