@@ -11,13 +11,13 @@
 </script>
 
 <Hero
-	title="Build a website in minutes"
-	subtitle="No code. No clutter. Just your content."
+	title="Your website. Done in minutes."
+	subtitle="Skip the complexity. Skip the headaches. Just share what matters."
 	imageSrc="/generated/image-a-group-of-diverse-small-business-owners.webp"
 	centered={false}
 />
 <LogoScroller 
-	label="Trusted by creative professionals and small businesses"
+	label="Join thousands who chose simple over complicated"
 	logoUrls={[
 		'https://logo.clearbit.com/etsy.com',
 		'https://logo.clearbit.com/fiverr.com',
@@ -27,8 +27,8 @@
 />
 
 <Summary
-	title="What we do"
-	text="We provide a service for individuals and businesses to create super simple websites, focusing on ease of use and accessibility for non-technical users. Our platform prioritizes simplicity, speed, and affordability over highly customized or complex web functionalities."
+	title="Why we exist"
+	text="Building a website shouldn't feel like rocket science. We believe everyone deserves a beautiful online presence without the technical maze. While others pile on features, we focus on what actually matters: getting you online quickly, affordably, and stress-free."
 />
 
 <Testimonials
@@ -38,7 +38,7 @@
 			position: "Illustrator",
 			company: "",
 			quote:
-				"I made my portfolio in a lunch break. What would have taken me weeks of wrestling with templates happened in 30 minutes. I saved so much time I could focus on actual client work.",
+				"Built my entire portfolio during lunch. Seriously. What used to take me weeks of fighting with WordPress happened in 30 minutes. Now I actually have time for client work instead of website maintenance.",
 			image:
 				"/generated/image-a-professional-female-illustrator-in-her.webp"
 		},
@@ -47,7 +47,7 @@
 			position: "Consultant",
 			company: "",
 			quote:
-				"Nothing to set up. Just pure writing. I eliminated all the technical risks of managing hosting, security, and updates. My site just works, and I sleep better at night.",
+				"No servers to crash. No plugins to break. No security nightmares. I just write and publish. My site works perfectly, and I sleep like a baby.",
 			image:
 				"/generated/image-a-professional-male-business-consultant-.webp"
 		},
@@ -56,7 +56,7 @@
 			position: "Founder",
 			company: "Talia Coaching",
 			quote:
-				"I send people one link and they get all they need. This saved me $3000 compared to hiring a developer, and I can update it myself whenever I want.",
+				"One link does everything. My clients get my story, services, and contact info instantly. Saved me three grand on a developer and I can update it myself in seconds.",
 			image:
 				"/generated/image-a-professional-female-business-coach-in-.webp"
 		}
@@ -64,71 +64,71 @@
 />
 
 <Features
-	title="Why choose us"
-	subtitle="Everything you need to get online quickly"
+	title="Built for real people"
+	subtitle="No tech degree required"
 	features={[
 		{
-			title: "No code required",
+			title: "Zero coding",
 			description:
-				"Create your website without writing a single line of code. Our intuitive interface makes web building accessible to everyone."
+				"Write, click, publish. That's it. No mysterious code or confusing settings. Just focus on your message."
 		},
 		{
-			title: "Lightning fast setup",
+			title: "Minutes, not months",
 			description:
-				"Get your website live in minutes, not hours. Choose a template, add your content, and you're ready to go."
+				"Your website goes live today. Pick a design, add your words, and you're done. No waiting around."
 		},
 		{
-			title: "Mobile responsive",
+			title: "Looks great everywhere",
 			description:
-				"Your website automatically looks perfect on all devices. No need to worry about technical details or complex configurations."
+				"Phone, tablet, laptop—your site adapts automatically. One less thing to worry about."
 		},
 		{
-			title: "Affordable pricing",
+			title: "Honest pricing",
 			description:
-				"Professional websites shouldn't break the bank. Our simple pricing makes it easy for anyone to afford a quality online presence."
+				"No hidden fees or surprise charges. Pay once, get everything. Professional results without the professional price tag."
 		},
 		{
-			title: "Built-in hosting",
+			title: "Nothing to install",
 			description:
-				"Everything you need is included in one place. No separate hosting accounts or technical setup required."
+				"No servers to manage or software to update. We handle the technical stuff so you don't have to."
 		},
 		{
-			title: "24/7 support",
+			title: "Real human help",
 			description:
-				"Get help whenever you need it with our friendly support team. We're here to make your website journey smooth and stress-free."
+				"Stuck? Confused? Just ask. Our support team actually wants to help, not hide behind chatbots."
 		}
 	]}
 />
 
 <UseCases
-	title="Use Cases"
-	subtitle="Real-world applications for your simple website needs"
+	title="Perfect for"
+	subtitle="Anyone who needs to be found online"
 	useCases={[
 		{
-			title: "Freelancers showcase their work",
-			description: "Create a professional portfolio in minutes to attract clients. No technical skills needed - just upload your work and share your story.",
+			title: "Freelancers who need clients",
+			description: "Show off your best work without the tech headaches. Upload your portfolio, tell your story, and start getting discovered.",
 			image: "/generated/image-a-small-business-owner-a-middle-aged-wom.webp",
 			link: {
 				href: "/use-cases/freelancer-portfolio",
-				label: "Learn more"
+				label: "See how"
 			}
 		},
 		{
-			title: "Artists display their creations",
-			description: "Transform your art into an online gallery that showcases your unique style. Perfect for painters, photographers, and creative professionals.",
+			title: "Artists ready to sell",
+			description: "Turn your creativity into a stunning online gallery. No coding required—just pure focus on what you do best.",
 			image: "/generated/image-an-artist-a-young-man-with-long-hair-is-.webp",
 			link: {
 				href: "/use-cases/artist-gallery",
-				label: "Learn more"
+				label: "See how"
 			}
 		},
 		{
-			title: "Startups launch their presence",
-			description: "Get your business online quickly with a clean, professional website. Focus on your product while we handle the technical details.",
+			title: "Startups moving fast",
+			description: "Launch your online presence today, not next quarter. Clean, professional, and ready to grow with your business.",
 			image: "/generated/image-a-startup-founder-a-young-woman-in-her-l.webp",
 			link: {
 				href: "/use-cases/startup-launch",
-				label: "Learn more"
+				label: "See how"
 			}
 		}
 	]}

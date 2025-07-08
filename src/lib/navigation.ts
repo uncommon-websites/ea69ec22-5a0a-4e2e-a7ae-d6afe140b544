@@ -49,7 +49,7 @@ export type NavItem = {
 };
 
 export const cta = {
-	label: "Book demo",
+	label: "Start building",
 	href: "/"
 };
 
@@ -69,7 +69,7 @@ export const navigation: NavItem[] = [
 				label: "Freelancer Portfolio",
 				href: "/use-cases/freelancer-portfolio",
 				image: "/generated/image-a-small-business-owner-a-middle-aged-wom.webp",
-				description: "Create a professional portfolio in minutes to attract clients. No technical skills needed - just upload your work and share your story.",
+				description: "Show off your best work without the tech headaches. Upload your portfolio, tell your story, and start getting discovered.",
 				showInNav: true,
 				showInFooter: true
 			},
@@ -77,7 +77,7 @@ export const navigation: NavItem[] = [
 				label: "Artist Gallery",
 				href: "/use-cases/artist-gallery",
 				image: "/generated/image-an-artist-a-young-man-with-long-hair-is-.webp",
-				description: "Transform your art into an online gallery that showcases your unique style. Perfect for painters, photographers, and creative professionals.",
+				description: "Turn your creativity into a stunning online gallery. No coding required—just pure focus on what you do best.",
 				showInNav: true,
 				showInFooter: true
 			},
@@ -85,7 +85,7 @@ export const navigation: NavItem[] = [
 				label: "Startup Launch",
 				href: "/use-cases/startup-launch",
 				image: "/generated/image-a-startup-founder-a-young-woman-in-her-l.webp",
-				description: "Get your business online quickly with a clean, professional website. Focus on your product while we handle the technical details.",
+				description: "Launch your online presence today, not next quarter. Clean, professional, and ready to grow with your business.",
 				showInNav: true,
 				showInFooter: true
 			}

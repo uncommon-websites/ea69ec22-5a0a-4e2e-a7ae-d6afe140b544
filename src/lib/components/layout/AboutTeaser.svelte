@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We didn't even want to build a website product. We just needed a way to put something online fast and clean—so we made one."`}
+				text={`"We built this because we were tired of websites taking forever. Sometimes the best solutions come from pure frustration."`}
 			/>
 
 			<!-- Team Member & CTA Section -->

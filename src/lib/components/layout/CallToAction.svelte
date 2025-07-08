@@ -50,9 +50,9 @@
 
 	// Props
 	const {
-		title = "Start building your website",
-		subtitle = "It's that simple",
-		description = "Join thousands of individuals, freelancers, and small businesses who've created their perfect website in minutes. No technical skills required - just your ideas and our simple platform.",
+		title = "Ready to go live?",
+		subtitle = "Your website is waiting",
+		description = "Join thousands who chose simple over complicated. No coding, no confusion, no months of waiting. Just your ideas and a platform that actually works.",
 		imageSrc = "/generated/image-a-cheerful-small-business-owner-standing.webp",
 		callsToAction = [cta],
 		...rest
